@@ -18,6 +18,7 @@ public class Lollipop extends Sweets implements Printable{
 
     @Override
     public void print() {
-        System.out.println("\uD83C\uDF6D");
+        System.out.println("Name:" + getName() +  " " + "Size:" + getSize() + " " + "Price:" +
+                getPrice() + " " + "Color:" + getColorOfLollipop());
     }
 }

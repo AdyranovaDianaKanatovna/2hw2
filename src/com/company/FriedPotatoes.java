@@ -18,6 +18,7 @@ public class FriedPotatoes extends JinkFood implements Printable{
 
     @Override
     public void print() {
-        System.out.println("\uD83C\uDF5F");
+        System.out.println("Name:" + getName() +  " " + "Size:" + getSize() + " " + "Price:" +
+                getPrice() + " " +"Tasty:" + getTastyOfPotatoes());
     }
 }
